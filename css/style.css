@@ -1,0 +1,79 @@
+body {
+  font-family: sans-serif;
+  background-image: url("../images/bg.jpg");
+  background-size: cover;
+  color: white;
+}
+
+@font-face {
+  font-family: 'madeavenue';
+  src: url(fonts/MADEAvenuePERSONALUSE-Regular.otf);
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline overline;
+  font-family: 'madeavenue'
+}
+
+.index-text {
+  text-align: center;
+  background-color: blue;
+  padding: 0.5em
+}
+
+.cntr {
+  text-align: center;
+}
+
+.aboutme-text {
+  text-align: center;
+  background-color: red;
+  padding: 0.5em;
+}
+
+.gp-text {
+  text-align: center;
+  padding: 0.5em;
+}
+
+#main-navbar{
+  background-color: purple;
+  text-align: center;
+  font-size: 20px;
+  width: 100%;
+  font-weight: bold;
+  position: relative;
+}
+
+#navbar-container {
+  text-align: center;
+  width: 100%;
+  position: relative;
+}
+
+#main-navbar ul {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#main-navbar ul li {
+  display: block;
+  float: left;
+  left: 50%;
+  right: 50%;
+}
+
+#main-navbar ul li a {
+  color: #fff;
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+  
+#main-navbar ul li a:hover {
+  background-color: #000;
+}
