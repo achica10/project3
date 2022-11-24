@@ -25,6 +25,20 @@ function initMap() {
     label: "Indiana Beach",
 	animation: google.maps.Animation.DROP
   });
+  
+  var chicago = new google.maps.Marker({
+    position: new google.maps.LatLng(41.8781,-87.6298),
+    map,
+  });
+  
+  var infowindow = new google.maps.InfoWindow({
+    content: "Closest big city!" 
+	
+  });
+  
+  infowindow.open(map, chicago);
+  
 
 }
+window.initMap = initMap;
 
