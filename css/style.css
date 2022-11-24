@@ -77,3 +77,8 @@ h1 {
 #main-navbar ul li a:hover {
   background-color: #000;
 }
+
+#map {
+	height: 500px;
+	width: 100%;
+}
