@@ -37,7 +37,6 @@ function initMap() {
   });
   
   infowindow.open(map, chicago);
-  
 
 }
 window.initMap = initMap;
